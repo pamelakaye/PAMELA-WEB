@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('/PAMELA-WEB/images/arko.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: aqua;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: blue;
+    display: block;
+    margin: auto;
+    transition: 0.5s
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.text-box h1{
+    font-size: 60px;
+}
+
+.sub-header{
+    background: blue;
+}
+
+.image-container{
+    width: 40%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    flex-basis: 50px;
+    padding: 30px 2px;
+}
+
+.spot1{
+    margin: 150px;
+}
+
+
+img{
+    max-width: 320px;
+}
+
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('/PAMELA-WEB/images/arko.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: rgb(245, 245, 245);
+}
+
+.spot1{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    padding: 10px;
+}
+
+.about{
+    flex-basis: 50%;
+    padding: 30px 2px;
+}
+
+.about img{
+    width: 100%;
+    align-items: center;
+}
+
+.about h1{
+    padding-top: 0;
+}
+
+.about p{
+    padding: 15px 0 25px;
+}
+
+
+img{
+    max-width: 150%;
+    float: left;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.spot1 table{
+    padding: 10px;
+    font-size: 25px;
+}
+
+.food-content{
+    width: 80px;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.food-left{
+    flex-basis: 65%;
+}
+
+.food-left img{
+    width: 100%;
+}
+
+
+.food-left h2{
+    color: blue;
+    font-weight: 600;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.spot2 table{
+    border: 1px;
+    padding: 5px;
+    margin: auto;
+    font-size: 25px;
+}
+section img{
+    width: 500px;
+}
+h1{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
